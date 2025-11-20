@@ -1,6 +1,6 @@
 const TodoForm = () => {
     return (
-        <form class="todo-form">
+        <form className="todo-form">
             <input type="text" placeholder="Enter your task" />
             <button>Add</button>
         </form>
