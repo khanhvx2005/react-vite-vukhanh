@@ -1,4 +1,6 @@
-const TodoForm = () => {
+const TodoForm = (props) => {
+    const { addNewToto } = props
+    addNewToto("xuankhanh")
     return (
         <form className="todo-form">
             <input type="text" placeholder="Enter your task" />
